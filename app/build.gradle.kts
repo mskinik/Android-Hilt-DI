@@ -61,6 +61,10 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,4 +74,23 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+    implementation (libs.gson)
+    implementation(libs.androidx.navigation.compose)
+    //BUNU SİLMEK GEREKEBİLİR 12.07
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    // hiltviewModel için 12.07
+    implementation(libs.androidx.hilt.navigation.compose)
+    //fragment için 12.07
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.navigation.dynamic.features.fragment)
+    //networking
+    implementation(libs.retrofit)
+    implementation(platform(libs.okhttp.bom))
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    debugImplementation (libs.library)
+    releaseImplementation (libs.library.no.op)
+
+
 }
