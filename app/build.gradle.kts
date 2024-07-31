@@ -76,15 +76,11 @@ dependencies {
     ksp(libs.hilt.compiler)
     implementation (libs.gson)
     implementation(libs.androidx.navigation.compose)
-    //BUNU SİLMEK GEREKEBİLİR 12.07
     implementation(libs.androidx.lifecycle.viewmodel.compose)
-    // hiltviewModel için 12.07
     implementation(libs.androidx.hilt.navigation.compose)
-    //fragment için 12.07
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.dynamic.features.fragment)
-    //networking
     implementation(libs.retrofit)
     implementation(platform(libs.okhttp.bom))
     implementation(libs.okhttp)
